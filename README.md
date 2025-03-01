@@ -87,11 +87,12 @@ python train.py -c ./configs/train_cgsyn+ood_val_transcg.yaml
 
 Make sure that the dataset paths and hyperparameters are correctly set in the configuration files before starting the training. If you want to resume training from a checkpoint, specify the checkpoint path in the configuration file under the `checkpoint_path` field.
 
-## Citation
+## Model Results Visualization
 
-@article{2022dct-diffusion,
- title = {DCT-Diffusion: Depth Completion for Transparent Objects with Diffusion Denoising Approach},
- author = {},
- journal = {arXiv }
- year = {2025}
-}
+The following images showcase the results of our model applied to scenes from the ClearGrasp and TransCG datasets. These include the RGB images, raw depth maps, and the refined depth maps predicted by our method. You can see the improvements in depth prediction as the raw depth maps are refined by our approach.
+
+![](/home/fins/.config/marktext/images/2025-03-02-01-14-27-img_v3_02k0_229d8e81-32e4-4f51-9769-7f10be3823ag.jpg)
+
+This figure presents a comparison of reconstructed 3D point clouds from depth and RGB images in four different scenes. The first row displays point clouds generated from the original depth maps, while the second row shows the point clouds reconstructed using our refined depth maps. Our model successfully enhances depth completion, resulting in significantly improved point cloud quality.
+
+![](/home/fins/.config/marktext/images/2025-03-02-01-14-37-img_v3_02k0_ab7bc45d-1aff-4c5a-974a-acf05e55754g.jpg)
