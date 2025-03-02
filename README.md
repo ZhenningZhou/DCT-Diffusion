@@ -2,6 +2,9 @@
 
 PyTorch implementation of paper 'DCT-Diffusion: Depth Completion for Transparent Objects with Diffusion Denoising Approach'"
 
+## Discription
+This repository provides the code for our model, which partially references [TODE](https://github.com/yuchendoudou/TODE) and [DiffusionDepth](https://github.com/duanyiqun/DiffusionDepth).Regarding our model, we provide a visual demonstration of the results.
+
 ## Dataset Preparation
 
 ### ClearGrasp Dataset
