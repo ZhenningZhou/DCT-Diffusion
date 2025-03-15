@@ -66,14 +66,6 @@ Other dependencies can be installed by
 pip install -r requirements.txt
 ```
 
-## Testing
-
-We provide transcg pretrained checkpoints at checkpoints/. You can use these pretrained models to directly test the model. Ensure that the correct checkpoint file is referenced in the configuration file, and execute the test with the following command:
-
-```shell
-python test.py --cfg [Configuration File]
-```
-
 ## Training
 
 To train the model from scratch, you need to specify the appropriate configuration file that matches your training and validation setup. Below are the training commands for different scenarios:
